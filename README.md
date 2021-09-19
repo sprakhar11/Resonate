@@ -39,12 +39,13 @@
 ## 👦 Overview
    At EduCity, college students can attend and watch lectures. Students can choose the course they want to learn, watch the video, ask doubts and make notes. It also keep a track of the student's progress in different courses.It has proctor-based quiz for student's to keep a check on their learning .
     
-##🏽‍🔧 Tech Stack
+## 🔧 Tech Stack
 The project is created using
 -  JavaScript
 -  HTML
 -  CSS
 -  BOOTSTRAP
+-  SCSS
 
 
 ## ✨ Features
