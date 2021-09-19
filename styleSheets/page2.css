@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+/* Navbar */
+#navbar {
+  background :rgb(39, 36, 36) !important;
+  color : #fff !important;
+  overflow : auto !important;
+}
+#navbar a{
+  color:#fff !important;
+}
+#navbar .logo{
+  float: left !important;
+  margin-top: 15px !important;
+  padding: top 20px !important;
+  text-decoration: none !important;
+}
+#carouselExampleIndicators{
+  margin-top:3em;
+  margin-bottom: 3em;
+}
+
+.card-body{
+  text-align: center;
+}
+#navbar ul{
+  list-style:none !important;
+  float:center !important;
+  text-align:center !important;
+  margin : center !important;
+}
+#navbar ul li{
+  float:right !important;
+  
+}
+#navbar ul li a{
+  display:block !important;
+  padding: 20px  !important;
+  text-align:center !important;
+}
+.container-1 {
+  display: flex !important;
+  flex-direction: space-between !important; 
+  justify-content: center !important;
+  max-width: 1500px !important;
+  margin-left: 150px !important;
+}
+#navbar img {
+  margin-left: 50px !important;
+  justify-content:right !important;
+  margin-top: 20px !important;
+
+}
+.xx {
+  display:flex !important; 
+  justify-content: center !important; 
+  float: right  !important ;
+  margin-left:3rem;
+}
+.col-md-3 {
+  display: flex !important;
+  float: right !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.nav-item {
+  font-size: 1.11em;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+/* h4{
+    text-align: center;
+    font-size: 1.11em;
+} */
+
+#footer{
+  padding: 100px 0px 40px 0px;
+  background-image:linear-gradient(130deg, #ffa159 40%, #ff39b3 100%);   
+  /* background-image:linear-gradient(130deg, #ffa159 10%, #ff39b4 51%, #ffa159 100%);    */
+}
+.subscribe-box{
+  background: rgba(0,0,0,0.15);
+  border-radius: 5px;
+}
+.subscribe-button{
+  background: #a75cf8 !important;
+}
+.copyright-text{
+  font-size: 14px;
+  letter-spacing: 0.6px !important;
+}
+
+
+
+@media(max-width: 768px){
+  .mobile-heading{
+      font-size: 40px !important;
+  }
+  #time{
+      padding: 10px 0px !important;
+  }
+  .margin-buttons{
+      margin-top: 15px !important;
+      /* margin: auto !important; */
+  }
+  #parallax{
+      padding: 100px 0px !important;
+  }
+  #faqs{
+      padding: 0px 0px 50px 0px!important;
+  }
+  .margin-top-mobile{
+      padding-top: 15px;
+  }
+  .hide{
+      display: none;
+  }
+  .one, .three{
+      height: 300px !important;
+      width: 103px;
+  }
+  .two{
+      height: 300px !important;
+  }
+}
