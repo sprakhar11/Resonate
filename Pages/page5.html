@@ -209,13 +209,13 @@ z<!DOCTYPE html>
 
                 <div class="xx">
                     <ul>
-                        <!-- <input type="text" name="search" placeholder="Search.."> -->
-                        <li><a  style="font-size:32px; "  href="../QuizApp/QuizApp/index.html" target="_blank"</a>Quiz</li>
-                        <li><a style="font-size:32px;"  href="page2.html" target="_blank">Courses</a></li>
-                        <li><a style="font-size:32px; "  href="page5.html" target="_blank">Attendance</a></li>
-                        <li><a style="font-size:32px; "  href="page2.html" target="_blank">Home</a></li>
-    
-    
+                           
+                        <li><a style="font-size:32px;" href="../QuizApp/QuizApp/index.html" target="_blank">Quiz</a></li>
+                        <li><a style="font-size:32px;" href="page2.html" target="_blank">Courses</a></li>
+                        <li><a style="font-size:32px;" href="page5.html" target="_blank" >Attendance</a></li>
+                        <li><a style="font-size:32px;" href="../index.html" target="_blank" >Home</a></li>
+
+
                     </ul>
                 </div>
                 <div class="col-md-3 text-end">
@@ -330,6 +330,21 @@ z<!DOCTYPE html>
                 </div>
             </div>
         </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <h5 style="font-size: 1.5em; font-weight: 600;" >Total Attendance</h5>
+            </div>
+            <div class="col-6">
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -364,7 +379,7 @@ z<!DOCTYPE html>
 
     <body>
         <div class="container">
-            <h2>Line Chart</h2>
+            <h2>Watch Time  </h2>
             <div>
                 <canvas id="myChart"></canvas>
             </div>
@@ -386,12 +401,12 @@ z<!DOCTYPE html>
                     "Sunday",
                 ],
                 datasets: [{
-                        label: "work load",
+                        label: "Videos's Watched",
                         data: [2, 9, 3, 17, 6, 3, 7],
                         backgroundColor: "rgba(153,205,1,0.6)",
                     },
                     {
-                        label: "free hours",
+                        label: "Quiz Score ",
                         data: [2, 2, 5, 5, 2, 1, 10],
                         backgroundColor: "rgba(155,153,10,0.6)",
                     },
@@ -416,7 +431,7 @@ z<!DOCTYPE html>
 
 
 
-    <footer class="container-fluid bg-grey py-5">
+    <footer class="container-fluid bg-grey py-5" style="margin-top: 5em;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
